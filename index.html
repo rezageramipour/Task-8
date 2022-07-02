@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="owl/owl.carousel.min.css" />
+    <link rel="stylesheet" href="owl/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="owl-carousel owl-theme">
+      <div><img src="images/پرسیل.jpg" /></div>
+      <div><img src="images/پیتزا.jpg" /></div>
+      <div><img src="images/پیتزا0.jpg" /></div>
+    </div>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="owl/owl.carousel.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        autoplay: true,
+        items: 1,
+        loop: true,
+        autoplayTimeout: 1000,
+        autoplayHoverPause: true,
+      });
+    </script>
+  </body>
+</html>
